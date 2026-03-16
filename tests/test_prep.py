@@ -8,4 +8,10 @@ class MyTestCase(unittest.TestCase):
             second='behaviour 3'
         )
 
+    def test_strange_function2(self):
+        self.assertEqual(
+            first=strange_function(2, 1, 1, 4),
+            second='behaviour 5'
+        )
+
     # TODO: Can you write more test cases below to increase the test coverage of `strange_function`?
